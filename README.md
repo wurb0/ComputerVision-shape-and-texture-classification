@@ -48,6 +48,16 @@ Both pipelines are evaluated using:
 - Analysis of misclassified samples
 
 ---
+## Results (Summary)
+
+- **Leaf shape classification (HoCS):** ~97.7% accuracy using a KNN classifier.
+- Most errors occurred between leaf classes with very similar global curvature profiles.
+- The confusion matrix shows strong diagonal dominance, indicating clear class separation.
+- 
+These results suggest that multi-scale curvature descriptors are highly effective for silhouette-based
+shape recognition, with remaining errors primarily due to morphological similarity rather than noise.
+
+---
 
 ## Data
 
